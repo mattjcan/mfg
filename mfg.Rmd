@@ -1,0 +1,65 @@
+---
+title: "Manufacturing jobs from mining"
+author: 
+date: "28 October 2019"
+output:
+  xaringan::moon_reader:
+    css: ["default", "libs/mjc-css/mjc-theme.css", "libs/mjc-css/mjc-fonts.css"]
+    lib_dir: libs
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, dpi = 300, fig.height = 5)
+
+library(knitr)
+
+source("mfg.R")
+
+```
+
+# Change in output since 2000
+
+``` {r }
+p_mfg_delta_2000
+```
+
+---
+
+class: inverse, center, middle
+
+---
+
+# Change in output 2000 to 2007
+
+``` {r }
+p_mfg_delta_2000_2007
+```
+
+---
+
+class: inverse, center, middle
+
+---
+
+# Change in output since 2007
+
+``` {r }
+p_mfg_delta
+```
+
+---
+
+class: inverse, center, middle
+
+---
+
+# We are losing value adding opportunities
+
+``` {r }
+p_al_in
+```
+
+---
+
+class: inverse, center, middle
